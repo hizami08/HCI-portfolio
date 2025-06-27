@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Experience</title>
+  <link rel="stylesheet" href="assets/css/styles1.css" />
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html#home" class="nav__link"><i class='bx bx-home'></i> Home</a></li>
+          <li class="nav__item"><a href="index.html#about" class="nav__link"><i class='bx bx-user'></i> About</a></li>
+          <li class="nav__item"><a href="index.html#work" class="nav__link"><i class='bx bx-code-alt'></i> Project</a></li>
+          <li class="nav__item"><a href="index.html#contact" class="nav__link"><i class='bx bx-envelope'></i> Contact</a></li>
+          <li class="nav__item"><a href="experience.html" class="nav__link active-link"><i class='bx bx-briefcase-alt'></i> Experience</a></li>
+          <li class="nav__item"><a href="edu.html" class="nav__link"><i class='bx bx-book'></i> Education</a></li>
+          <li class="nav__item"><a href="achieve.html" class="nav__link"><i class='bx bx-award'></i> Achievement</a></li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!--===== EXPERIENCE SECTION =====-->
+  <section class="section" style="background: url('assets/img/bg-laptop.jpg') center/cover no-repeat; padding-top: 6rem;">
+    <h2 class="section-title"><i class='bx bx-briefcase-alt'></i> EXPERIENCE</h2>
+
+    <div class="timeline bd-grid" style="background-color: rgba(184, 48, 48, 0.75); padding: 2rem; border-radius: 1rem;">
+      <div class="timeline-item" style="position: relative; padding-left: 2rem; border-left: 4px solid #ffbe0b; margin-bottom: 2rem;">
+        <span class="timeline-date" style="color: #f3d264; font-weight: bold;"><i class='bx bx-calendar'></i> 2020</span>
+        <h3 class="timeline-position"><i class='bx bx-package'></i> Part Time Courier Assistant</h3>
+        <h4 class="timeline-company">J&amp;T Express</h4>
+        <p class="timeline-desc">
+          Worked as a delivery assistant responsible for sorting parcels by delivery destinations, delivering
+          packages to assigned locations,
+          assisting with loading and unloading items, and ensuring all deliveries were completed accurately,
+          efficiently, and on time.
+        </p>
+      </div><br><br>
+
+      <div class="timeline-item" style="position: relative; padding-left: 2rem; border-left: 4px solid #ffbe0b; margin-bottom: 2rem;">
+        <span class="timeline-date" style="color: #f3d264; font-weight: bold;"><i class='bx bx-calendar'></i> 2022</span>
+        <h3 class="timeline-position"><i class='bx bx-store'></i> Part Time Sales Assistant</h3>
+        <h4 class="timeline-company">Jakel Mall</h4>
+        <p class="timeline-desc">
+          Worked as a retail assistant responsible for assisting customers and offering product
+          recommendations,
+          organizing display shelves for a tidy appearance, supporting daily sales operations, and ensuring
+          stock levels and cleanliness were well-maintained on the sales floor.
+        </p>
+      </div><br><br>
+
+      <div class="timeline-item" style="position: relative; padding-left: 2rem; border-left: 4px solid #ffbe0b;">
+        <span class="timeline-date" style="color: #f3d264; font-weight: bold;"><i class='bx bx-calendar'></i> 2023</span>
+        <h3 class="timeline-position"><i class='bx bx-cycling'></i> Part Time Rider</h3>
+        <h4 class="timeline-company">Lalamove</h4>
+        <p class="timeline-desc">
+          Worked as a delivery rider responsible for picking up and delivering various types of items across
+          Klang Valley.
+          Ensured each delivery was completed safely, promptly, and accurately while maintaining good
+          communication with customers.
+          Managed real-time order updates through the app and handled items with care during transportation.
+        </p>
+      </div><br><br>
+    </div>
+  </section>
+
+  <!--===== FOOTER =====-->
+  <footer class="footer">
+    <p class="footer__title"><i class='bx bx-smile'></i> Amirul Hizami</p>
+    <div class="footer__social">
+      <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+      <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+      <a href="#" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+    </div>
+    <p class="footer__copy">&#169; Hizami. All rights reserved</p>
+  </footer>
+
+<!--===== SCROLL REVEAL =====-->
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+    const sr = ScrollReveal({
+        origin: 'bottom',
+        distance: '40px',
+        duration: 1800,
+        delay: 100,
+        opacity: 0,
+        scale: 0.95,
+        easing: 'ease-in-out',
+        reset: false
+    });
+
+    sr.reveal('.section-title', { delay: 200 });
+    sr.reveal('.timeline-item', { interval: 300 });
+    sr.reveal('.footer', { delay: 500 });
+</script>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Achievement</title>
+  <link rel="stylesheet" href="assets/css/styles1.css" />
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html#home" class="nav__link"><i class='bx bx-home'></i> Home</a></li>
+          <li class="nav__item"><a href="index.html#about" class="nav__link"><i class='bx bx-user'></i> About</a></li>
+          <li class="nav__item"><a href="index.html#work" class="nav__link"><i class='bx bx-code-alt'></i> Project</a></li>
+          <li class="nav__item"><a href="index.html#contact" class="nav__link"><i class='bx bx-envelope'></i> Contact</a></li>
+          <li class="nav__item"><a href="experience.html" class="nav__link"><i class='bx bx-briefcase-alt'></i> Experience</a></li>
+          <li class="nav__item"><a href="edu.html" class="nav__link"><i class='bx bx-book'></i> Education</a></li>
+          <li class="nav__item"><a href="achieve.html" class="nav__link active-link"><i class='bx bx-award'></i> Achievement</a></li>
+        </ul>
+      </div>
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-menu'></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <section class="section">
+    <h2 class="section-title"><i class='bx bx-award'></i> ACHIEVEMENT</h2>
+    <p class="achievement__intro">
+      Welcome to my achievement. Here, you'll discover the certificates I uploaded including details of my achievements and participation in various events.
+    </p>
+
+    <div class="achievement__container bd-grid">
+      
+
+      <!-- STPM -->
+      <div class="achievement__card">
+        <h3 class="achievement__title">MATRICS</h3>
+        <p class="achievement__desc">
+          Earning the Matriculation certificate with a commendable CGPA of 3.25, which includes the achievement of securing 1 A grade, 1 A- grade, 2 B grades, and 1 B grade.
+        </p><br>
+        <a href="assets/img/transMatrik.jpg" target="_blank">
+          <img src="assets/img/transMatrik.jpg" alt="STPM Certificate" class="achievement__img" />
+        </a>
+      </div>
+
+      <!-- Dean's Award -->
+      <div class="achievement__card">
+        <h3 class="achievement__title">Dean's Award</h3>
+        <p class="achievement__desc">
+          Earning the Dean's Award certificate with a notable academic performance, proving dedication and excellence in studies.
+        </p><br><br>
+        <a href="assets/img/dean.jpeg" target="_blank">
+          <img src="assets/img/dean.jpeg" alt="Dean's Award" class="achievement__img" />
+        </a>
+      </div>
+
+      <!-- GitHub Clinic -->
+      <div class="achievement__card">
+        <h3 class="achievement__title">IP Clinic</h3>
+        <p class="achievement__desc">
+          Participated in the IP Clinic D’FTMK-A-THON, showcasing teamwork, creativity, and problem-solving skills in a collaborative tech-based competition environment.
+        </p><br><br><a href="assets/img/IpClinic.jpg" target="_blank">
+        <img src="assets/img/IpClinic.jpg" alt="GitHub Clinic Certificate" class="achievement__img" /></a>
+      </div>
+
+      <div class="achievement__card">
+        <h3 class="achievement__title">SULAM Program</h3>
+        <p class="achievement__desc">
+          Participated in the SULAM program held at UiTM Shah Alam, engaging in community-based learning activities while fostering collaboration, leadership, and social responsibility.
+        </p><br><a href="assets/img/Uitm.jpg" target="_blank">
+        <img src="assets/img/Uitm.jpg" alt="GitHub Clinic Certificate" class="achievement__img" /></a>
+      </div>
+    
+
+      <div class="achievement__card">
+        <h3 class="achievement__title">ISAS Online Seminar</h3>
+        <p class="achievement__desc">
+          Participated in the ISAS20 online seminar organized by USIM, gaining valuable insights through academic discussions while enhancing knowledge, critical thinking, and virtual collaboration skills.
+        </p>
+        <a href="assets/img/Usim.jpg" target="_blank">
+        <img src="assets/img/Usim.jpg" alt="GitHub Clinic Certificate" class="achievement__img" /></a>
+      </div>
+    
+       <div class="achievement__card">
+  <h3 class="achievement__title">AJ Splash Run</h3>
+  <p class="achievement__desc">
+    Participated in the AJ Splash Run organized by Kolej Al-Jazari and successfully placed in the Top 20,
+    demonstrating endurance, determination, and active involvement in college activities.
+  </p><br>
+  <a href="assets/img/ajRun.jpeg" target="_blank">
+    <img src="assets/img/ajRun.jpeg" alt="AJ Splash Run Certificate" class="achievement__img" />
+  </a>
+</div>
+
+    </div>
+  </section>
+
+
+  <!-- Optional ScrollReveal (if used in other pages) -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="assets/js/main.js"></script>
+  <!-- ===== Scroll Reveal & JS ===== -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    ScrollReveal({
+      distance: '50px',
+      duration: 1200,
+      easing: 'ease-in-out',
+      reset: true
+    });
+
+    ScrollReveal().reveal('.section-title', { origin: 'top' });
+    ScrollReveal().reveal('.achievement__intro', { origin: 'bottom', delay: 200 });
+    ScrollReveal().reveal('.achievement__card', { origin: 'bottom', interval: 200 });
+  </script>
+</body>
+
+</html>
